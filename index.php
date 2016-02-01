@@ -28,6 +28,7 @@
 <body>
     <div class="main">
 <div id="title"><h2>June 16, 2016<br>
+ Seattle, Washington
 <?php
 $date = mktime("June 16, 2016 7:00 PM");
 $now = time();
@@ -37,13 +38,12 @@ $daysRemaining = $date - $now;
     define('SECONDS_PER_HOUR', 3600);
     define('SECONDS_PER_DAY', 86400);
 
-    $daysRemaining = floor($secondsRemaining / SECONDS_PER_DAY); //days until end
-    $secondsRemaining -= ($daysRemaining * SECONDS_PER_DAY); //update variable
+    
 
     echo("There are only $daysRemaining days left!"); //print message
 
-?>
-    Seattle, Washington</h2></div>
+?><br>
+   </h2></div>
     <div class="one_half left">
         <div class="center">Moon to Marry Mari</div>
 VAIL - Ms. Ruth Clarisse Moon, ace reporter and journalism studies researcher, on Sept. 25, 2015 accepted the marriage proposal of media historian Mr. William Thomas Mari. Ms. Moon and Mr. Mari were on Vail Mountain at approximately 9500 feet above sea level when Mr. Mari knelt and asked Ms. Moon to "please stand up for this part." Ms. Moon, shocked but not too shocked, interrogated Mr. Mari briefly amid the flaming aspens before accepting his proposal. Mr. Mari has been courting Ms. Moon for two years and three months. Ms. Moon is regarded by some as the most eligible PhD student in all of academia. Mr. Mari, himself a looker, told this reporter he is "in awe of his new fiance." The wedding is tentatively scheduled for the future. All may attend, though only the first 100 through the door can eat.  </div>
