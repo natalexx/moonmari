@@ -10,5 +10,10 @@
   $emailcontent= "From: $name \n RSVP: $rsvp \n\n $value";
   $mailheader = "From: $name";
   mail($to, $subject, $emailcontent, $mailheader) or header('Location: emailerror.html');
-  header('Location: thank-you.html');
+{
+  if ($value == $yes)
+   header("Location: yes.html);
+elseif
+   header("Location: no.html");
+}
 ?>

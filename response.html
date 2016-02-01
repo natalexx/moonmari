@@ -19,6 +19,9 @@
 <form>
     <input type="radio" name="rsvp" value="yes">RSVP: Yes<br />
     <input type="radio" name="rsvp" value="no">RSVP: No<br />
+
+      <input type="radio" name="rsvp" value="<?php echo htmlspecialchars($yes); ?>" >RSVP: Yes<br />
+    <input type="radio" name="rsvp" value="<?php echo htmlspecialchars($no); ?>">RSVP: No<br />
 </form>
                    <div id="submit">  <form>
     <input type="submit" value="RSVP" />
