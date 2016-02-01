@@ -28,9 +28,9 @@
 <body>
     <div class="main">
 <div id="title"><h2>June 16, 2016<br>
- Seattle, Washington
+ Seattle, Washington<br>
 <?php
-$date = mktime("June 16, 2016 7:00 PM");
+$date = strtotime([int $month = date("6") [, int $day = date("16") [, int $year = date("2016") [, int $is_dst = -1 ]]]]]]] );
 $now = time();
 $daysRemaining = $date - $now;
 
