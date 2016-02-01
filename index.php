@@ -33,7 +33,11 @@ $date = strtotime("June 16, 2016 7:00 PM");
 $remaining = $date - time();
 $days_remaining = floor($remaining / 86400);
 $hours_remaining = floor(($remaining % 86400) / 3600);
-echo "There are $days_remaining days and $hours_remaining hours left";
+if($day) echo "$day Days ";
+if($hr) echo "$hr Hours ";
+if($min) echo "$min Minutes ";  
+if($sec) echo "$sec Seconds ";
+echo "Remaining...";
 ?>
     Seattle, Washington</h2></div>
     <div class="one_half left">
