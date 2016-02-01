@@ -30,15 +30,13 @@
 <div id="title"><h2>June 16, 2016<br>
  Seattle, Washington<br>
 <?php
-$date = strtotime([int $month = date("6") [, int $day = date("16") [, int $year = date("2016") [, int $is_dst = -1 ]]]]]]] );
+$date = strtotime("2016-06-16 00:00:00.0");
 $now = time();
 $daysRemaining = $date - $now;
 
     define('SECONDS_PER_MINUTE', 60);
     define('SECONDS_PER_HOUR', 3600);
     define('SECONDS_PER_DAY', 86400);
-
-    
 
     echo("There are only $daysRemaining days left!"); //print message
 
