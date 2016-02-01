@@ -34,9 +34,6 @@ $date = strtotime("2016-06-16 00:00:00.0");
 $now = date("Y-m-d H:i:s");
 $daysRemaining = $date - $now;
 
-    define('SECONDS_PER_MINUTE', 60);
-    define('SECONDS_PER_HOUR', 3600);
-    define('SECONDS_PER_DAY', 86400);
 
     echo("There are only $daysRemaining days left!"); //print message
 
