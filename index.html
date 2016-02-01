@@ -27,7 +27,14 @@
 <!-- main content -->
 <body>
     <div class="main">
-<div id="title"><h2>Date TBD<br>
+<div id="title"><h2>June 16, 2016<br>
+<?php
+$date = strtotime("June 16, 2016 7:00 PM");
+$remaining = $date - time();
+$days_remaining = floor($remaining / 86400);
+$hours_remaining = floor(($remaining % 86400) / 3600);
+echo "There are $days_remaining days and $hours_remaining hours left";
+?>
     Seattle, Washington</h2></div>
     <div class="one_half left">
         <div class="center">Moon to Marry Mari</div>
