@@ -29,15 +29,19 @@
     <div class="main">
 <div id="title"><h2>June 16, 2016<br>
 <?php
-$date = strtotime("June 16, 2016 7:00 PM");
-$remaining = $date - time();
-$days_remaining = floor($remaining / 86400);
-$hours_remaining = floor(($remaining % 86400) / 3600);
-if($day) echo "$day Days ";
-if($hr) echo "$hr Hours ";
-if($min) echo "$min Minutes ";  
-if($sec) echo "$sec Seconds ";
-echo "Remaining...";
+$date = mktime(15,30,0,6,16,2016);
+$now = time();
+$daysRemaining = $date - $now;
+
+    define('SECONDS_PER_MINUTE', 60);
+    define('SECONDS_PER_HOUR', 3600);
+    define('SECONDS_PER_DAY', 86400);
+
+    $daysRemaining = floor($secondsRemaining / SECONDS_PER_DAY); //days until end
+    $secondsRemaining -= ($daysRemaining * SECONDS_PER_DAY); //update variable
+
+    echo("<h3>There are only $daysRemaining days left!</h3>"); //print message
+
 ?>
     Seattle, Washington</h2></div>
     <div class="one_half left">
