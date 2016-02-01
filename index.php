@@ -29,7 +29,7 @@
     <div class="main">
 <div id="title"><h2>June 16, 2016<br>
 <?php
-$date = mktime(15,30,0,6,16,2016);
+$date = mktime("June 16, 2016 7:00 PM");
 $now = time();
 $daysRemaining = $date - $now;
 
@@ -40,7 +40,7 @@ $daysRemaining = $date - $now;
     $daysRemaining = floor($secondsRemaining / SECONDS_PER_DAY); //days until end
     $secondsRemaining -= ($daysRemaining * SECONDS_PER_DAY); //update variable
 
-    echo("<h3>There are only $daysRemaining days left!</h3>"); //print message
+    echo("There are only $daysRemaining days left!"); //print message
 
 ?>
     Seattle, Washington</h2></div>
