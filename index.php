@@ -31,7 +31,7 @@
  Seattle, Washington<br>
 <?php
 $date = strtotime("2016-06-16 00:00:00.0");
-$now = time();
+$now = date("Y-m-d H:i:s");
 $daysRemaining = $date - $now;
 
     define('SECONDS_PER_MINUTE', 60);
