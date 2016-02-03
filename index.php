@@ -30,7 +30,7 @@
 <div id="title"><h2>June 16, 2016<br>
  Seattle, Washington<br>
 <?php
-$date = strtotime("2016-06-16");
+$date = strtotime("2016-6-16");
 $now = date("Y-m-d");
 $daysRemaining = $date - $now;
 
