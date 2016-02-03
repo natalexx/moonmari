@@ -28,18 +28,21 @@
 <body>
     <div class="main">
 <div id="title"><h2>June 16, 2016<br>
- Seattle, Washington<br>
+ Seattle, Washington</h2><br>
 
 <?php
-$date = strtotime('06/16/2016 19:00:00');
-date_default_timezone_set('America/Seattle');
-$now = date('m/d/Y h:i:s');
-$sum_Total = $date - $now;
+$date = strtotime("June 16, 2016 7:00 PM");
+$remaining = $date - time();
+$days_remaining = floor($remaining / 86400);
+$hours_remaining = floor(($remaining % 86400) / 3600);
 
-    echo("There are only $sum_Total days left!"); //print message
-?>
 
-<br>
+    echo $days_remaining; 
+    echo $hours_remaining;
+    ?>
+
+
+
    </h2></div>
     <div class="one_half left">
         <div class="center">Moon to Marry Mari</div>
