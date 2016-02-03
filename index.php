@@ -29,9 +29,9 @@
     <div class="main">
 <div id="title"><h2>June 16, 2016<br>
  Seattle, Washington<br>
- 
+
 <?php
-$date = strtotime("2016-6-16");
+$date = strtotime("06/16/2016 19:00:00");
 date_default_timezone_set('America/Seattle');
 $now = date('m/d/Y h:i:s a', time());
 $daysRemaining = $date - $now;
