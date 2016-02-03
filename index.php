@@ -29,15 +29,16 @@
     <div class="main">
 <div id="title"><h2>June 16, 2016<br>
  Seattle, Washington<br>
+ 
 <?php
 $date = strtotime("2016-6-16");
-$now = date("Y-m-d");
+date_default_timezone_set('America/Seattle');
+$now = date('m/d/Y h:i:s a', time());
 $daysRemaining = $date - $now;
 
-
     echo("There are only $daysRemaining days left!"); //print message
-
 ?>
+
 <br>
    </h2></div>
     <div class="one_half left">
