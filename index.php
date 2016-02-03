@@ -30,14 +30,15 @@
 <div id="title"><h2>June 16, 2016<br>
  Seattle, Washington<br>
 <?php
-$date = strtotime("2016-06-16 00:00:00.0");
-$now = date("Y-m-d H:i:s");
+$date = strtotime("2016-06-16");
+$now = date("Y-m-d");
 $daysRemaining = $date - $now;
 
 
     echo("There are only $daysRemaining days left!"); //print message
 
-?><br>
+?>
+<br>
    </h2></div>
     <div class="one_half left">
         <div class="center">Moon to Marry Mari</div>
@@ -49,5 +50,6 @@ VAIL - Ms. Ruth Clarisse Moon, ace reporter and journalism studies researcher, o
 </body> 
 <footer>
   <div class="wrapper" id="footer">
+ Coding by Alicia M. Cohn, 2016
   </div> <!--end footer wrapper -->
 </footer>
