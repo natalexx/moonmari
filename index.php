@@ -31,12 +31,12 @@
  Seattle, Washington<br>
 
 <?php
-$date = strtotime("06/16/2016 19:00:00");
+$date = strtotime('06/16/2016 19:00:00');
 date_default_timezone_set('America/Seattle');
-$now = date('m/d/Y h:i:s a', time());
-$daysRemaining = $date - $now;
+$now = date('m/d/Y h:i:s');
+$sum_Total = $date - $now;
 
-    echo("There are only $daysRemaining days left!"); //print message
+    echo("There are only $sum_Total days left!"); //print message
 ?>
 
 <br>
