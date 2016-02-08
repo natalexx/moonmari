@@ -15,6 +15,10 @@
     margin-left: 3%;
     margin-bottom: 1%;
 }
+
+ul {
+  list-style-type:none;
+}
  
 /* clearfix */
 .wrapper:before, 
@@ -36,7 +40,7 @@ header:after {
     display: table;
 }
 
-/* ----- mobile first ----- */
+/* ----- mobile ----- */
  
 .one_half { width: 100%; }
 
@@ -66,6 +70,19 @@ display: block;
         padding: 1px;
     margin:0 auto;
     text-align:center;
+    font-family: 'Seaweed Script', cursive;
+}
+
+#reception {
+  font-size:.5em;
+  line-height:1em;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 2px 8px #bdcbd9;
+        padding: 1px;
+}
+
+#reception a {
+  text-decoration: none;
 }
 
 
@@ -107,49 +124,70 @@ header {
    background-size: cover;
    background-position: top;
    padding: 0;
-    font-family: 'Gentium Book Basic', serif;
     	color: white;
 }
  
 #pic1 {
-   background: url("seattle.jpg") center center no-repeat; 
+   background: url("Seattle_3.jpg") center left no-repeat; 
    padding: 0;    
    margin: 0;
-    border-bottom: 5px solid #bdcbd9;
+    border-bottom: 5px solid #70a0c7;
         opacity: .9;
       background-size: cover;
 }
 
-/*responsive header*/
 #pic2 {
     background: url("wedding.jpg") 45% 58% no-repeat; 
    padding: 0;    
    margin: 0;
-        min-width: 320px;
+       border-bottom: 5px solid #70a0c7;
+           opacity: .9;
+      background-size: cover;
 }
 
 /*form*/
-#pic2 h1 {
+#pic2 h2 {
     color: white;
-font-family: 'Gentium Book Basic', serif;
-    margin-left: 5px;
-    margin-bottom:5px;
+margin: auto;    
 }
+
+.error {color: #7B482B;}
+
 #response h2 {
   margin-bottom: 5px;
-  color: white;
+  color: #70a0c7;
   font-family: 'Raleway', sans-serif;
     margin-left:5px;
         text-decoration-style: 1px solid #bdcbd9;
 }
 
-#todo {
-    color:white;
+.todo {
+  margin-bottom: 10px;
+  margin-top: 5px;
+    text-align:center;
+    color: #70a0c7;
+    text-align:center;
     font-family: 'Raleway', sans-serif;
 }
 
+.todo h3 {
+  text-align: center;
+
+}
+
+.todo a {
+  text-decoration:none;
+      color: #70a0c7;
+}
+
+.todo a:hover {
+  border-bottom: 2px solid #70a0c7;
+font-weight:bold;
+}
+
+
 .form {
-    color: white;
+    color: #70a0c7;
     margin-left: 5px;
     padding:10px;
 }
@@ -158,18 +196,18 @@ font-family: 'Gentium Book Basic', serif;
 form input[type="radio"] {
   font-size: 16px; /* Size effects bullet and padding */
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: #70a0c7;
         padding:10px;
     background-color: #bdcbd9;
 }
 form label {
         font-family: 'Raleway', sans-serif;
- background-color: white;
-   font-color: black;
+ background-color: #70a0c7;
+   color: black;
     line-height: 20px;
     padding: 20px;
 margin: auto;
-  border: 3px solid #4db4c7;
+  border: 3px solid #70a0c7;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
 }
 
@@ -178,8 +216,7 @@ input[type=submit] {
     border: 1px transparent #0c5380;
     width: 80px;
     height: 35px;
-    font-family: Tahoma;
-    background: #bdcbd9;
+    background: #d3d3d3;
     color: #fff;
             font-family: 'Raleway', sans-serif;
      action="rsvp.php" method="POST";
@@ -195,6 +232,7 @@ input[type=submit] {
 
 .wrapper {
   width: 100%;
+  height:auto;
   margin: auto;
 }
 
@@ -212,20 +250,21 @@ font-weight:bold;
 
 #skip a {
     text-decoration:none;
-    color:white;
-    font-family: 'Gentium Book Basic', serif;
+     color: #70a0c7;
+    font-family: 'Raleway', sans-serif;
     margin-left: 5px;
     margin-bottom:5px;
 }
 #skip a:hover {
-border-bottom: 2px solid white;
+border-bottom: 2px solid #70a0c7;
     font-style: strong;
 }
 /* full screen */
 
 @media screen and (min-width: 800px) {
-    
-    .one_half { width: 45.5%; }
+
+  .one_half { width:45.5%;
+}
 
   .left {
 float:left
@@ -235,20 +274,22 @@ float:right
 }
 
 #top-nav ul{ 
-    margin:0 auto;
+    margin:auto;
     list-style-type: none;
 }
 
 
 #top-nav ul li {
         min-width:24.25%;
+         max-width:45.5%;
     display:inline-block;
     color: white;
-	text-decoration: none;
+  text-decoration: none;
 padding: auto;
     border: 0;
     position:relative;
 }
+
    #top-nav .btn {
  width:45.5%;
        margin-left:30px;       
@@ -272,7 +313,7 @@ padding: auto;
 #top-nav ul li {
     display:inline-block;
     color: white;
-	text-decoration: none;
+  text-decoration: none;
 padding: auto;
     border: 0;
     width:100%
@@ -297,7 +338,7 @@ padding: auto;
 }
 
 body {
-    background-image: url("white_wall_hash.png");
+background-color:white;
     margin: 0;
     padding: 0;
 }
@@ -305,23 +346,51 @@ body {
 #title {
     text-align:center;
     margin:auto:
+        letter-spacing: 2px;
+   font-family: 'Seaweed Script', cursive;
 }
 
-.main {
+.main{
     margin: auto;
     padding: 10px;
-font-family: 'Raleway', sans-serif;
+   font-family: 'Seaweed Script', cursive;
     width:75%;
     line-height:1.5em;
 }
 
+.wrapper a {
+  color: white;
+  text-decoration: none;
+}
+
+.announcement {
+      font-family: 'Raleway', sans-serif;
+}
+
 footer {  
-  background-color: #bdcbd9;
+  background-color: #70a0c7;
   height: 30px;
+  margin-bottom: 0;
+  text-align:center;
 } 
 
+footer ul li {
+  margin: auto;
+padding: auto;
+  width: 100%;
+  list-style-type: none;
+}
+
+footer a {
+   color:white;
+  text-decoration: none;
+}
+
+footer a:hover {
+font-weight:bold;
+}
+
  
-Book
 h1 {
    column-span: all;
   -moz-column-span: all;
@@ -349,74 +418,6 @@ p {
 	width: 1.05em;
 }
 
-.digit{
-	position:absolute;
-	display:block;
-	width:1em;
-	background-color:#444;
-	border-radius:0.2em;
-	text-align:center;
-	color:#fff;
-	letter-spacing:-1px;
-}
-
-.digit.static{
-	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35);
-	
-	background-image: linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
-	background-image: -o-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
-	background-image: -moz-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
-	background-image: -webkit-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
-	background-image: -ms-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
-	
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.5, #3A3A3A),
-		color-stop(0.5, #444444)
-	);
-}
-
-/**
- * You can use these classes to hide parts
- * of the countdown that you don't need.
- */
-
-.countDays{ /* display:none !important;*/ }
-.countDiv0{ /* display:none !important;*/ }
-.countHours{display:none;}
-.countDiv1{display:none;}
-.countMinutes{display:none;}
-.countDiv2{display:none;}
-.countSeconds{display:none;}
-
-
-.countDiv{
-	display:inline-block;
-	width:16px;
-	height:1.6em;
-	position:relative;
-}
-
-.countDiv:before,
-.countDiv:after{
-	position:absolute;
-	width:5px;
-	height:5px;
-	background-color:#444;
-	border-radius:50%;
-	left:50%;
-	margin-left:-3px;
-	top:0.5em;
-	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5);
-	content:'';
-}
-
-.countDiv:after{
-	top:0.9em;
-}
-
 /*buttons*/
 .btn {
 font-family: 'Raleway', sans-serif;
@@ -433,7 +434,6 @@ font-family: 'Raleway', sans-serif;
   -webkit-box-shadow: 0px 1px 3px #666666;
   -moz-box-shadow: 0px 1px 3px #666666;
   box-shadow: 0px 1px 3px #666666;
-font-family: 'Gentium Book Basic', serif;
   color: white;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
