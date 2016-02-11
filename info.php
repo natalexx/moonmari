@@ -39,13 +39,13 @@
 <br>
 <a href="https://secure.westelm.com/registry/mjc7nk8cp2/registry-list.html" target="_blank">West Elm</a>
 </h3>
-Mail presents:<br>
-7518 20th Ave NE<br>Seattle, Wash. 98115
+Mail gifts:<br>
+8810 35th Ave NE<br> Seattle, Wash. 98115
                            </div>
                            <div class="one_half right todo"> 
                            
       <h2>To do in Seattle</h2>
-           <h3><iframe src="https://www.google.com/maps/d/embed?mid=zVBesxosPJNQ.kzF75ysqqeAQ"></iframe>
+           <h3><iframe src="https://www.google.com/maps/d/embed?mid=zVBesxosPJNQ.kzF75ysqqeAQ" height="480" width="100%"></iframe>
 </h3>
 </div>
 </div>

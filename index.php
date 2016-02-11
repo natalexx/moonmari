@@ -37,11 +37,9 @@ $date = strtotime("June 16, 2016 7:00 PM");
 $remaining = $date - time();
 $days_remaining = floor($remaining / 86400);
 $hours_remaining = floor(($remaining % 86400) / 3600);
-// $seconds_remaining = floor((($remaining % 86400) / 3600) / 3600);
 
 
     echo '<h2>Only ' . $days_remaining . ' days to go!</h2>'; 
-    // echo '<h2>Seconds = '. $seconds_remaining . '</h2>';
     ?>
 
    </div>
