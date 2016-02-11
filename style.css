@@ -219,7 +219,6 @@ input[type=submit] {
     background: #d3d3d3;
     color: #fff;
             font-family: 'Raleway', sans-serif;
-     action="rsvp.php" method="POST";
 }
 
 
@@ -357,6 +356,17 @@ background-color:white;
     width:75%;
     line-height:1.5em;
 }
+
+#soon {
+    text-align:center;
+    line-height: 2em;
+    margin: auto;
+    padding:10px;
+      font-size: 3em;
+        letter-spacing: 2px;
+   font-family: 'Seaweed Script', cursive;
+}
+
 
 .wrapper a {
   color: white;

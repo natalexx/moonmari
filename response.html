@@ -1,35 +1,54 @@
-<?php 
-$pageTitle = 'Cannot Attend';
+
+
+<?php
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $message = $_POST['message'];
+ 
+  $value = $_POST['rsvp'];
+ 
+  $to = "alicia@aliciacohn.com";
+  $subject = "RSVP";
+  $emailcontent= "From: $name \n RSVP: $rsvp \n\n $value";
+  $mailheader = "From: $name";
+  mail($to, $subject, $emailcontent, $mailheader) 
+  or header('Location: index.php');
+  header('Location: info.php');
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<?php include 'header.php'; ?>
 
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=devicewidth, initial-scale=1, maximum-scale=1">
-<meta name="description" content="wedding engagement">
-<link href='https://fonts.googleapis.com/css?family=Raleway:400,600|Gentium+Book+Basic:400,400italic,700italic' rel='stylesheet' type='text/css'>
-       <link rel="shortcut icon" href="favicon.ico" />
+<title>Will + Ruth | RSVP</title>
+</div>
+<body>
 
-<title>Will + Ruth</title>
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-<link href="style.css" rel="stylesheet" type="text/css" />
-    
-    <body id="pic2">
-        <h1>Sorry you can't make it!</h1>
-                  <div id="response" class="form">
+                   <div id="response" class="form">
       <h2>Please confirm...</h2>
-<form>
-    <input type="radio" name="rsvp" value="yes">RSVP: Yes<br />
-    <input type="radio" name="rsvp" value="no">RSVP: No<br />
+ <form action="rsvp.php" method="POST">    
+     <p>Name (First & last)</p>
+    <input type="text" name="name" style="background-color:white" />
+    <p>Email</p>
+    <input type="text" name="email" style="background-color:white" />
+     <br><br>
+     <input type="radio" name="rsvp" value="Yes :)">RSVP: Yes<br />
+    <input type="radio" name="rsvp" value="No :(">RSVP: No<br />
 
-      <input type="radio" name="rsvp" value="<?php echo htmlspecialchars($yes); ?>" >RSVP: Yes<br />
-    <input type="radio" name="rsvp" value="<?php echo htmlspecialchars($no); ?>">RSVP: No<br />
+                      
+
+    <!-- <p>Comments:</p>
+   <input type="text" name="comment" style="background-color:white" rows="5" cols="40"><?php echo $comment;?>
+                      --> <div id="submit">  
+
+       <input type="submit" value="RSVP" action="rsvp.php" method="POST" />
+
 </form>
-                   <div id="submit">  <form>
-    <input type="submit" value="RSVP" />
-                       </form></div>
+</div>
+            </div>      
+    
+                       <div id="skip">  <p><a href="info.php">I already sent my RSVP.</a></p>
         
-</div><!-- end main wrapper -->
-</body> 
+
+</div> 
+</body>
+<!-- Site footer -->
+<?php include 'footer.php'; ?>

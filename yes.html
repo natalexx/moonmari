@@ -1,7 +1,3 @@
-<?php 
-$pageTitle = 'Attending';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +13,22 @@ $pageTitle = 'Attending';
 <link href="style.css" rel="stylesheet" type="text/css" />
     
     <body id="pic2">
-<h2>Please confirm...</h2>
-  <?php include 'rsvp.php'; ?>
-
-      
-            Welcome <?php echo $_POST["name"]; ?><br>
+        <h1>We're thrilled you can make it!</h1>
+              
+                       <div id="response" class="form">
+      <h2>Please confirm...</h2>
+ <form action="rsvp.php" method="POST">    
+     <p>Name (First & last)</p>
+    <input type="text" name="name" style="background-color:#bdcbd9" />
+    <p>Email</p>
+    <input type="text" name="email" style="background-color:#bdcbd9" />
+     <br><br>
+    <input type="radio" name="rsvp" value="Yes :)">RSVP: Yes<br />
+    <input type="radio" name="rsvp" value="No :(">RSVP: No<br />
+                   <div id="submit">  
+    <input type="submit" value="RSVP" action="rsvp.php" method="POST" />
+                       </form></div>
+                       <div id="skip">  <p><a href="thank-you.html">I already sent my RSVP.</a></p>
+                           
+</div><!-- end main wrapper -->
+</body> 
