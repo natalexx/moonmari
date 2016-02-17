@@ -2,15 +2,15 @@
 <?php
   $name = $_POST['name'];
   $email = $_POST['email'];
-  $message = $_POST['message'];
+  // $message = $_POST['comment'];
  
-  $value = $_POST['rsvp'];
+  $rsvp = $_POST['rsvp'];
  
   $to = "alicia@aliciacohn.com";
   $subject = "RSVP";
-  $emailcontent= "From: $name \n RSVP: $rsvp \n\n $value";
+  $emailcontent= "From: $name \n RSVP: $rsvp";
   $mailheader = "From: $name";
   mail($to, $subject, $emailcontent, $mailheader) 
-  or header('Location: index.php');
-  header('Location: info.php');
+  or header('Location: moonmari/index.php');
+  header('Location: moonmari/info.php');
 ?>

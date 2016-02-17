@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
 <link href="style.css" rel="stylesheet" type="text/css" />
     
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"8d3f85537f70e801d8374cf76","lid":"75987f94df"}) })</script>
+    
 <!-- Header navigation -->
 <header id="pic1">
 <div id="top-nav">

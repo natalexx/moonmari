@@ -365,6 +365,7 @@ background-color:white;
       font-size: 3em;
         letter-spacing: 2px;
    font-family: 'Seaweed Script', cursive;
+   color: #70a0c7;
 }
 
 
@@ -378,6 +379,7 @@ background-color:white;
 }
 
 footer {  
+      text-align:center;
   background-color: #70a0c7;
   height: 60px;
   margin-bottom: 0;
@@ -414,13 +416,15 @@ p {
   text-align: justify;
 }
 
-/*countdown clock*/
-.countdownHolder{
-	width:450px;
-	margin:0 auto;
-	font: 40px/1.5 'Gentium Book Basic', serif;
-	text-align:center;
-	letter-spacing:-3px;
+#mc_embed_signup 
+{
+font-family: 'Raleway', sans-serif;
+  color: #70a0c7;
+}
+
+#mc-field-group {
+font-family: 'Raleway', sans-serif;
+  color: white;
 }
 
 .position{
