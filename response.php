@@ -42,7 +42,7 @@
   </select>
 </div>
 <div class="mc-field-group">
-  <label for="mce-MMERGE4">Bringing a guest? </label>
+  <label for="mce-MMERGE4">Names of people in your party:</label>
   <input type="text" value="" name="MMERGE4" class="" id="mce-MMERGE4">
 </div>
   <div id="mce-responses" class="clear">
@@ -83,11 +83,12 @@
 
 </form>
 </div> -->
-            </div>      
+               
     
-                       <div id="skip">  <p><a href="info.php">I already sent my RSVP.</a></p>
-        
+                       <div id="skip"> <p><a href="info.php">I already sent my RSVP.</a></p>
 
 </div> 
+ <div id="list"><em>When you RSVP, your email address will be added to a mailing list that Ruth and Will can use to contact wedding guests, if necessary. Your RSVP won't be recorded unless you verify your email address with the link that will be emailed to you shortly — we promise we're just collecting those addresses to share important wedding information!
+</em></div>
 
 <?php include 'footer.php'; ?>

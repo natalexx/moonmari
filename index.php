@@ -12,8 +12,7 @@
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
 <link href="style.css" rel="stylesheet" type="text/css" />
     
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"8d3f85537f70e801d8374cf76","lid":"75987f94df"}) })</script>
-    
+   
 <!-- Header navigation -->
 <header id="pic1">
 <div id="top-nav">
@@ -21,8 +20,8 @@
                    <div class="name">Ruth + Will</div> 
 
         <ul>
-            <a href="response.php"><li class="btn response center"><a href="response.php">I'm coming!</a></li></a>
-           <a href="response.php"><li class="btn response center"><a href="response.php">I can't attend!</a></li></a>
+            <a href="response.php"><li class="btn response center"><a href="response.php">RSVP</a></li></a>
+           <a href="response.php"><li class="btn response center"><a href="info.php">Info</a></li></a>
                       </ul>
 </div>
 </div>
