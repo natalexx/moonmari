@@ -29,7 +29,7 @@
        
             <div class="one_half left todo">
 <h2>Ceremony: 5 p.m.</h2>
-<a href="https://www.google.com/maps?q=Place:+Green+Lake+Presbyterian+Church,+6318+Linden+Ave+N,+Seattle,+WA+98103&bav=on.2,or.r_cp.&bvm=bv.123325700,d.aXo&biw=750&bih=750&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjRkLDfnYXNAhUiGFIKHfMvBssQ_AUIBigB" target="_blank">Green Lake Presbyterian Church, 6318 Linden Ave N, Seattle, WA 98103</a>
+<a href="https://www.google.com/maps?q=Place:+Green+Lake+Presbyterian+Church,+6318+Linden+Ave+N,+Seattle,+WA+98103&bav=on.2,or.r_cp.&bvm=bv.123325700,d.aXo&biw=750&bih=750&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjRkLDfnYXNAhUiGFIKHfMvBssQ_AUIBigB" target="_blank">Green Lake Presbyterian Church</a><br> 6318 Linden Ave N<br>Seattle, WA 98103
 <br>
 <h2>Reception (to follow)</h2>
                           <a href="https://www.google.com/maps/place/Great+Hall+at+Green+Lake/@47.6811202,-122.3248815,15z/data=!4m2!3m1!1s0x0:0x30716870a6a9a050" target="_blank">Great Hall at Green Lake</a><br> 7220 Woodlawn Ave NE<br> Seattle, Wash. 98115
@@ -45,7 +45,7 @@ Toll-Free: 800-435-0754<br>
 Discounted rate of $179 available until May 15<br></strong>
 
 <h2>Transportation</h2>
-<p>In general, driving around Seattle is not fun, and parking is even less fun. We recommend taking Uber or Lyft (you can install a handy app for either if you have a smartphone). Both are reliable, fast, and usually fairly cheap. You can also get around by taxi. Public transportation exists but is not always convenient; you can find Seattle's trip planner here: http://metro.kingcounty.gov/
+<p>In general, driving around Seattle is not fun, and parking is even less fun. We recommend taking Uber or Lyft (you can install a handy app for either if you have a smartphone). Both are reliable, fast, and usually fairly cheap. You can also get around by taxi. Public transportation exists but is not always convenient; you can find Seattle's trip planner here: <a href="http://metro.kingcounty.gov" target="_blank">http://metro.kingcounty.gov</a>.
 </p><p>
 Parking will be easier at the church than at the reception venue. If you do want to park near the Great Hall, there is paid parking underneath Greenlake Village at 71st St. and 5th Ave. NE, just a few blocks south of the Great Hall.</p>
 <p><em>From airport:</em><br> Hotel Nexus offers a discounted Shuttle Express rate to hotel guests ($55 for a party of 4)<br>
